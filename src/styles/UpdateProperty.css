@@ -1,0 +1,53 @@
+/* UpdateProperty.css */
+.update-property-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.2em;
+    color: #333333;
+    background: #e0f7fa;
+    text-align: center;
+    padding: 50px;
+}
+
+.update-property-container h2 {
+    color: #444;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.update-property-container form {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.update-property-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.update-property-container input,
+.update-property-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.update-property-container button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-property-container button:hover {
+    background-color: #0056b3;
+}

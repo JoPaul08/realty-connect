@@ -1,0 +1,49 @@
+/* Realtor.css */
+.realtor-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.2em;
+    color: #333333;
+    background: #e0f7fa; /* Change the background color to light blue */
+    text-align: center;
+    padding: 50px;
+}
+
+.realtor-container h2 {
+    color: #444;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.realtor-container button {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.realtor-container button:hover {
+    background-color: #0056b3;
+}
+
+.realtor-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.realtor-container th, .realtor-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.realtor-container tr:nth-child(even) {
+    background-color: #f2f2f2;
+}

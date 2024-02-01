@@ -1,0 +1,32 @@
+/* Home.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 1.4em;
+    color: #333;
+    background: #e0f7fa; /* Change the background color to light blue */
+    text-align: center;
+    padding: 50px;
+}
+.home-container h1 {
+    color: #444;
+    font-size: 3em; /* Increase the font size */
+    margin-bottom: 20px;
+}
+
+.home-container p {
+    max-width: 800px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.home-container p:last-child {
+    font-weight: bold;
+    font-size: 1.8em; /* Increase the font size */
+    color: #007BFF;
+    cursor: pointer;
+}
+
